@@ -1,0 +1,10 @@
+import numpy as np
+a=np.array(range(1,9))
+print(a)
+b=np.array(range(1,9))
+print(b)
+print(a*b)
+a=np.matrix(a)
+b=np.matrix(b)
+print(a.T@b)
+print(np.multiply(a,b.T))
